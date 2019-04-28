@@ -3,7 +3,7 @@
 #Don't Change The Author Or I Will Delete The API
 #I'm not responsible for any use of this tools
 #Created By Guzz (グッズ)
-# penambahan baru by widhisec
+#penambahan baru by widhisec
 merah='\e[31m'
 ijo='\e[1;32m'
 kuning='\e[1;33m'
