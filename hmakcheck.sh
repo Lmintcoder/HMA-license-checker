@@ -3,6 +3,7 @@
 #Don't Change The Author Or I Will Delete The API
 #I'm not responsible for any use of this tools
 #Created By Guzz (グッズ)
+# penambahan baru by widhisec
 merah='\e[31m'
 ijo='\e[1;32m'
 kuning='\e[1;33m'
@@ -48,8 +49,14 @@ printf "${ijo}[LIVE]${NC} $key [$cek]\n"
 echo "$key : $cek" >> hmalicense.txt
 fi
 }
+# penambahan baru by widhisec
+N=30
+(
 for key in $(cat $klist)
 do
-gen
+((i=i%N)); ((i++==0)) && wait
+gen "${key}" &
 done
+wait
+)
 printf "\n${ijo}[+]${NC} Live License Key Can Be Found in hmalicense.txt\n"
