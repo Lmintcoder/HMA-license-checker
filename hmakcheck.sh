@@ -49,7 +49,6 @@ printf "${ijo}[LIVE]${NC} $key [$cek]\n"
 echo "$key : $cek" >> hmalicense.txt
 fi
 }
-# penambahan baru by widhisec
 N=30
 (
 for key in $(cat $klist)
