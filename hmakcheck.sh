@@ -37,7 +37,7 @@ printf "${ijo}
 	 (https://github.com/Lmintcoder)
 "
 printf "${kuning}__________________________________________________${NC}\n\n"
-printf "${kuning}[+]${NC} Key list File : "; read klist
+printf "${kuning}[+]${NC} Key list File : "; hmalicese.txt klist
 gen(){
 cek=$(curl -s -m 20 "http://nandrbiz1.com/hma.php" -d "key=$key" | grep -Po '(?<=9: ")[^"]*' | sed -n 1p)
 if [[ $cek == "" ]]
